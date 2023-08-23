@@ -1,0 +1,457 @@
+/* ---------- GLOBAL ----------*/
+/* --- BOTÃO CTA ---*/
+.button-cta {
+    width: 100%;
+    min-height: 4rem;
+    font-size: .9rem;
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+    border: 0;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.carrosel{
+    padding: var(--p-swiper);
+}
+
+.title{
+    margin-bottom: 2.5rem;
+}
+
+.title h2{
+    margin-bottom: 1.5rem;
+}
+
+.title p{
+    margin-bottom: 1rem;
+}
+
+/* ---------- FIM DO GLOBAL ----------*/
+/* ---------- CABEÇALHO ----------*/
+header{
+    background-color: #0a0909;
+    background-image: url(../assets/bg/bg_header.webp);
+    background-position: 30% center;
+    color: var(--color-primary);
+}
+
+/* --- TEXTOS ---*/
+.content-header{
+    text-align: center;
+    padding: var(--p-content);
+}
+
+.content-header h1{
+    font-size: 1.25rem;
+    margin-bottom: 0.7rem;
+}
+
+.content-header p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+/* ---------- FIM DO CABEÇALHO ----------*/
+
+/* ---------- 1° CONTEÚDO ----------*/
+#check{
+    text-align: start;
+}
+
+.title_flex{
+    display: flex;
+    margin-bottom: 1.7rem;
+    color: #573511;
+}
+
+#linha-vertical {
+    height: 5.8rem;
+    border-right: 2px solid var(--color-secondary);
+    opacity: .2;
+    margin: 0 1rem 0 1rem;
+}
+
+.checklist{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    margin-bottom: 3rem;
+}
+
+.checklist-child{
+    display: flex;
+    font-weight: 500;
+}
+
+.checklist-child i{
+    margin-top: .5rem;
+    color: var(--color-tertiary);
+}
+
+.checklist-child p{
+    margin-left: 0.5rem;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    width: 17rem;
+}
+/* ---------- FIM DO 1° CONTEÚDO ----------*/
+
+/* ---------- 2° CONTEÚDO ----------*/
+#beneficios{
+    background-color: var(--color-secondary);
+    background-image: url(../assets/bg/bg_beneficios.webp);
+    background-position: 10% center;
+}
+
+#beneficios_mobile{
+    display: none;
+}
+
+.swiper-custom-pagination {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+.swiper-custom-pagination .number {
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.swiper-custom-pagination .line {
+    opacity: .3;
+    height: .25rem;
+    width: .75rem;
+    background-color: var(--color-primary);
+    display: block;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet-active .number,
+.swiper-custom-pagination .swiper-pagination-bullet-active .line {
+    opacity: 1;
+}
+
+.swiper-custom-pagination .swiper-pagination-bullet-active .line {
+    width: 2rem;
+}
+/* ---------- FIM DO 2° CONTEÚDO ----------*/
+
+/* ---------- 3° CONTEÚDO ----------*/
+.cards-3-child{
+    width: 16rem;
+    min-height: 12rem;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    padding: 0.8rem;
+    text-align: start;
+}
+
+.cards-3-child-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cards-3-child-title span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-tertiary);
+}
+/* ---------- FIM DO 3° CONTEÚDO ----------*/
+
+/* ---------- 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
+#quem_somos_nos{
+    background-color: var(--color-secondary);
+    background-image: url(../assets/bg/bg_nos.webp);
+    background-position: 40% center;
+    color: var(--color-primary);
+}
+
+.sede img{
+    margin-bottom: .8rem;
+}
+
+#sede {
+    font-weight: 500;
+}
+
+.sede{
+    font-weight: 300;
+}
+/* ---------- FIM DO 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
+
+/* ---------- 5° CONTEÚDO (PRODUTOS) ----------*/
+
+/* ---------- FIM DO 5° CONTEÚDO (PRODUTOS) ----------*/
+
+/* ---------- 6° CONTEÚDO (DEPOIMENTOS) ----------*/
+#depoimentos{
+    background-color: var(--color-secondary);
+    background-image: url(../assets/bg/bg_depoimentos.webp);
+    background-position: center center;
+    color: var(--color-primary);
+}
+/* ---------- FIM DO 6° CONTEÚDO (DEPOIMENTOS) ----------*/
+
+/* ---------- 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
+.text-7{
+    margin-bottom: 3rem; 
+}
+
+
+/* ---------- FIM DO 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
+
+/* ---------- 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
+#title_duvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title_duvidas hr{
+    height: 3px;
+    width: 40%;
+    background-color: var(--color-secondary);
+    opacity: .3;
+    border-radius: 8px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.duvidas-child span{
+    font-weight: 600;
+}
+
+.duvidas-child p{
+    line-height: 25px;
+    font-size: .9rem;
+}
+/* ---------- FIM DO 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
+
+@media screen and (min-width: 800px) {
+/* --- BOTÃO CTA ---*/
+    .button-cta {
+        min-width: 30rem;
+        max-width: 30rem;
+        padding: 1.2rem;
+        transition: all .3s;
+        border: 0;
+        color: var(--color-secondary);
+    }
+
+    .button-cta:hover{
+        width: 31rem;
+        color: var(--color-primary);
+    }
+
+    .content{
+        padding: var(--p-desktop);
+    }
+
+    .title h2{
+        font-size: 2.5rem;
+    }
+    /* --- CARDS ---*/
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .foto img{
+        width: 21rem;
+    }
+/* ---------- FIM DO GLOBAL ----------*/
+/* ---------- CABEÇALHO ----------*/
+    header{
+        height: 35rem;
+    }
+    /* --- TEXTOS ---*/
+    .content-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 28rem;
+    }
+
+    .content-header h1{
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .content-header p{
+        font-size: 1.2rem;
+    }
+
+/* ---------- FIM DO CABEÇALHO ----------*/
+
+/* ---------- 1° CONTEÚDO (VOCÊ PRECISA) ----------*/
+    #check{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #check_section{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .checklist:last-child{
+        margin-bottom: 0;
+    }
+
+    .title_flex{
+        display: flex;
+        margin-bottom: 1.7rem;
+        color: #573511;
+    }
+
+    #linha-vertical {
+        height: 6.5rem;
+    }
+
+    .checklist-child i{
+        font-size: 1.3rem;
+    }
+/* ---------- FIM DO 1° CONTEÚDO ----------*/
+
+/* ---------- 2° CONTEÚDO (BENEFÍCIOS) ----------*/
+    #beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #slider-2{
+        display: none;
+    }
+
+    #beneficios_mobile{
+        display: flex;
+        flex-direction: column;
+    }
+/* ---------- FIM DO 2° CONTEÚDO ----------*/
+
+/* ---------- 3° CONTEÚDO (COMO FUNCIONA?) ----------*/
+    .cards-3-child{
+        width: auto;
+        min-height: 12rem;
+        padding: 1rem;
+    }
+
+    .cards-3-child-title{
+        font-size: 2.5rem;
+    }
+
+    .cards-3-child-title span{
+        font-size: 2.8rem;
+    }
+/* ---------- FIM DO 3° CONTEÚDO ----------*/
+
+/* ---------- 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
+#quem_somos_nos{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title_nos{
+    width: 50%;
+}
+/* ---------- FIM DO 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
+
+/* ---------- 6° CONTEÚDO (DEPOIMENTOS) ----------*/
+#depoimentos{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* ---------- FIM DO 6° CONTEÚDO (DEPOIMENTOS) ----------*/
+
+/* ---------- 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
+#cadastro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-7{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+/* ---------- FIM DO 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
+
+/* ---------- 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
+#title_duvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title_duvidas hr{
+    height: 3px;
+    width: 40%;
+    background-color: var(--color-secondary);
+    opacity: .3;
+    border-radius: 8px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.duvidas-child span{
+    font-weight: 600;
+}
+
+.duvidas-child p{
+    line-height: 25px;
+    font-size: .9rem;
+}
+}
+/* ---------- FIM DO 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
+/* ---------- FIM DO RESPONSIVO ----------*/

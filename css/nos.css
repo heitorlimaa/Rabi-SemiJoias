@@ -1,0 +1,25 @@
+header{
+    background-color: #0a0909;
+    background-image: url(../assets/bg/bg_header.webp);
+    background-position: 30% center;
+}
+
+@media screen and (min-width: 800px){
+    .flex_child{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text_content_childs{
+        width: 40%;
+    }
+
+    .text_content_childs p:not(:last-child){
+        margin-bottom: 2.5rem;
+    }
+
+    .cards img{
+        width: 13rem;
+    }
+}

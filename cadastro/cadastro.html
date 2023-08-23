@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/logo/icon.ico" type="image/x-icon">
+    <title>Cadastro de Revendedora - Rabi SemiJoias</title>
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+            <img src="../assets/logo/logo.png" alt="Logo Rabi Semi Joias">
+
+            <h1>Cadastro de <span>Revendedora</span></h1>
+
+        </div>
+
+        <hr>
+
+        <form action="envio.php" method="post">
+
+            <p>Nome Completo:</p>
+            <input type="text" name="nome" required>
+
+            <p>Data de Nascimento:</p>
+            <input type="text" name="data_nascimento" required>
+
+            <p>CPF:</p>
+            <input type="text" name="cpf" placeholder="000.000.000-00" required>
+
+            <p>E-mail:</p>
+            <input type="email" name="email" required>
+
+            <p>WhatsApp:</p>
+            <input type="text" name="whatsapp" placeholder="(99) 99999-9999" required>
+
+            <p>Você tem restrições no nome? (SPC/SERASA/Protesto)</p>
+
+            <select name="restricao" required>
+                <option value="" disabled selected>--- Selecione uma opção ---</option>
+                <option value="Limpo">Tenho nome limpo no SPC, SERASA e Cartórios</option>
+                <option value="Sujo">Tenho restrição</option>
+            </select>
+            
+            <div class="conheceu">
+                
+                <p>Como nos conheceu?</p>
+
+                <label class="check_conheceu">
+                    <input type="checkbox" name="conheceu" value="Instagram"> Instagram
+                </label>
+
+                <label class="check_conheceu">
+                    <input type="checkbox" name="conheceu" value="Facebook"> Facebook
+                </label>
+
+                <label class="check_conheceu">
+                    <input type="checkbox" name="conheceu" value="Google"> Google
+                </label>
+
+                <label class="check_conheceu">
+                    <input type="checkbox" name="conheceu" value="Indicação"> Indicação
+                </label>
+
+            </div>
+
+            <hr>
+
+            <h2>Endereço <span>Residencial</span></h2>
+
+            <p>CEP:</p>
+            <input type="text" id="txtCep" name="cep" required><br>
+
+            <p>Endereço:</p>
+            <input type="text" id="txtRua" name="endereco" required><br>
+
+            <p>Número:</p>
+            <input type="text" name="numero" required><br>
+
+            <p>Ponto de Referência:</p>
+            <input type="text" name="ponto_referencia"><br>
+
+            <p>Bairro:</p>
+            <input type="text" id="txtBairro" name="bairro" required readonly><br>
+
+            <p>Cidade:</p>
+            <input type="text" id="txtCity" name="cidade" required readonly><br>
+
+            <p>Estado:</p>
+            <input type="text" id="txtState" name="estado" required readonly><br>
+
+            <hr>
+
+            <input type="submit" value="Enviar Cadastro">
+
+        </form>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <script src="../js/cep.js"></script>
+
+</body>
+
+</html>

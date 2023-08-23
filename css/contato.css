@@ -1,0 +1,90 @@
+header{
+    background-color: #0a0909;
+    background-image: url(../assets/bg/bg_header.webp);
+    background-position: 30% center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.info{
+    background-color: #3b3a3a;
+    border-radius: 10px;
+    color: #eaeaea;
+    padding: 1.3rem;
+    text-align: start;
+    width: 100%;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+}
+
+.info div:not(:last-child){
+    margin-bottom: 1.3rem;
+}
+
+.info i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.info a{
+    font-size: 1rem;
+}
+
+.input_info_contato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input_info_contato form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_info_contato input[type=text], [type=email], textarea{
+    padding: 1rem;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    outline: 0;
+    resize: none;
+}
+
+.input_info_contato input:focus, textarea:focus{
+    border: 1px solid grey;
+}
+
+.input_info_contato input[type=submit]{
+    background-color: #3b3a3a;
+    color: #eaeaea;
+    padding: 1rem;
+    border: 0;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 800px){
+    .contato{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        margin-bottom: 4rem;
+    }
+
+    .info{
+        max-width: 40rem;
+    }
+
+    .input_info_contato{
+        max-width: 40rem;
+    }
+}

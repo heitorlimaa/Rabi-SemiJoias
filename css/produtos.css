@@ -1,0 +1,6 @@
+header{
+    background-color: #0a0909;
+    background-image: url(../assets/bg/bg_header.webp);
+    background-position: 30% center;
+    color: var(--color-primary);
+}
