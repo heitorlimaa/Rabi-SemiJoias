@@ -110,13 +110,35 @@ input[type="submit"] {
   transition: all .3s;
 }
 
-input[type="submit"]:hover{
-  background-color: #ac7929;
-  color: #eaeaea;
+#containerEnviar {
+  position: relative;
+}
+
+#containerEnviar #blockEnviar {
+  display: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+#containerEnviar.disabled #blockEnviar {
+  display: block;
+}
+
+#containerEnviar.disabled #send {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 800px){
   .container{
     max-width: 30rem;
+  }
+
+  input[type="submit"]:hover{
+    background-color: #ac7929;
+    color: #eaeaea;
   }
 }
