@@ -34,6 +34,7 @@ function buscaCep() {
             else if(req.status === 404) {
                 alert("CEP inválido!");
             }
+            
             else{
                 alert("Erro ao fazer a requisição");
             }
