@@ -24,25 +24,26 @@ try {
 
     $mail->CharSet = 'UTF-8';
 
-    $body = "Informação Pessoal:<br>
+    $body = "<b>Informação Pessoal:</b><br>
             <br>
-            Nome: ". $_POST['nome']."<br>
-            Data de Nascimento: ". $_POST['data_nascimento']."<br>
-            CPF: ". $_POST['cpf']."<br>
-            E-mail: ". $_POST['email']."<br>
-            Whatsapp: ". $_POST['whatsapp']."<br>
-            Restrição: ". $_POST['restricao']."<br>
-            Onde nos conheceu: ". $_POST['conheceu']."<br>
+            Nome:  ". $_POST['nome']."<br>
+            Data de Nascimento:  ". $_POST['data_nascimento']."<br>
+            CPF:  ". $_POST['cpf']."<br>
+            E-mail:  ". $_POST['email']."<br>
+            Whatsapp:  ". $_POST['whatsapp']."<br>
+            Restrição:  ". $_POST['restricao']."<br>
+            Onde nos conheceu:  ". $_POST['conheceu']."<br>
             <br>
-            Endereço Residencial:<br>
             <br>
-            CEP: ". $_POST['cep']."<br>
-            Endereço: ". $_POST['endereco']."<br>
-            Número: ". $_POST['numero']."<br>
-            Ponto de Referência: ". $_POST['ponto_referencia']."<br>
-            Bairro: ". $_POST['bairro']."<br>
-            Cidade: ". $_POST['cidade']."<br>
-            Estado: ". $_POST['estado'];
+            <b>Endereço Residencial:</b><br>
+            <br>
+            CEP:  ". $_POST['cep']."<br>
+            Endereço:  ". $_POST['endereco']."<br>
+            Número:  ". $_POST['numero']."<br>
+            Ponto de Referência:  ". $_POST['ponto_referencia']."<br>
+            Bairro:  ". $_POST['bairro']."<br>
+            Cidade:  ". $_POST['cidade']."<br>
+            Estado:  ". $_POST['estado'];
 
     $mail->isHTML(true);
     $mail->Subject = 'Formulário de Cadastro';
