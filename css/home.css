@@ -206,10 +206,6 @@ header{
 }
 /* ---------- FIM DO 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
 
-/* ---------- 5° CONTEÚDO (PRODUTOS) ----------*/
-
-/* ---------- FIM DO 5° CONTEÚDO (PRODUTOS) ----------*/
-
 /* ---------- 6° CONTEÚDO (DEPOIMENTOS) ----------*/
 #depoimentos{
     background-color: var(--color-secondary);
@@ -223,7 +219,6 @@ header{
 .text-7{
     margin-bottom: 3rem; 
 }
-
 
 /* ---------- FIM DO 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
 

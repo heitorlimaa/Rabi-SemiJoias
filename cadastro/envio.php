@@ -24,8 +24,7 @@ try {
 
     $mail->CharSet = 'UTF-8';
 
-    $body = "<h3>INFORMAÇÕES PESSOAIS:</h3><br>
-            <br>
+    $body = "<h5><b>INFORMAÇÕES PESSOAIS:</b></h5>
             <b>Nome:</b> ". $_POST['nome']."<br>
             <b>Data de Nascimento:</b> ". $_POST['data_nascimento']."<br>
             <b>CPF:</b> ". $_POST['cpf']."<br>
@@ -35,8 +34,7 @@ try {
             <b>Onde nos conheceu:</b> ". $_POST['conheceu']."<br>
             <br>
             <br>
-            <h3>ENDEREÇO RESIDENCIAL:</h3><br>
-            <br>
+            <h5><b>ENDEREÇO RESIDENCIAL:</b></h5>
             <b>CEP:</b> ". $_POST['cep']."<br>
             <b>Endereço:</b> ". $_POST['endereco']."<br>
             <b>Número:</b> ". $_POST['numero']."<br>
