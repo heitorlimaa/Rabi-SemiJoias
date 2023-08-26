@@ -24,26 +24,26 @@ try {
 
     $mail->CharSet = 'UTF-8';
 
-    $body = "<b>Informação Pessoal:</b><br>
+    $body = "<h3>INFORMAÇÕES PESSOAIS:</h3><br>
             <br>
-            Nome:  ". $_POST['nome']."<br>
-            Data de Nascimento:  ". $_POST['data_nascimento']."<br>
-            CPF:  ". $_POST['cpf']."<br>
-            E-mail:  ". $_POST['email']."<br>
-            Whatsapp:  ". $_POST['whatsapp']."<br>
-            Restrição:  ". $_POST['restricao']."<br>
-            Onde nos conheceu:  ". $_POST['conheceu']."<br>
+            <b>Nome:</b> ". $_POST['nome']."<br>
+            <b>Data de Nascimento:</b> ". $_POST['data_nascimento']."<br>
+            <b>CPF:</b> ". $_POST['cpf']."<br>
+            <b>E-mail:</b> ". $_POST['email']."<br>
+            <b>Whatsapp:</b> ". $_POST['whatsapp']."<br>
+            <b>Restrição:</b> ". $_POST['restricao']."<br>
+            <b>Onde nos conheceu:</b> ". $_POST['conheceu']."<br>
             <br>
             <br>
-            <b>Endereço Residencial:</b><br>
+            <h3>ENDEREÇO RESIDENCIAL:</h3><br>
             <br>
-            CEP:  ". $_POST['cep']."<br>
-            Endereço:  ". $_POST['endereco']."<br>
-            Número:  ". $_POST['numero']."<br>
-            Ponto de Referência:  ". $_POST['ponto_referencia']."<br>
-            Bairro:  ". $_POST['bairro']."<br>
-            Cidade:  ". $_POST['cidade']."<br>
-            Estado:  ". $_POST['estado'];
+            <b>CEP:</b> ". $_POST['cep']."<br>
+            <b>Endereço:</b> ". $_POST['endereco']."<br>
+            <b>Número:</b> ". $_POST['numero']."<br>
+            <b>Ponto de Referência:</b> ". $_POST['ponto_referencia']."<br>
+            <b>Bairro:</b> ". $_POST['bairro']."<br>
+            <b>Cidade:</b> ". $_POST['cidade']."<br>
+            <b>Estado:</b> ". $_POST['estado'];
 
     $mail->isHTML(true);
     $mail->Subject = 'Formulário de Cadastro';
