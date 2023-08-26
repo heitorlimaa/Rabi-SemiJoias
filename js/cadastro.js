@@ -34,7 +34,7 @@ function buscaCep() {
             else if(req.status === 404) {
                 alert("CEP inválido!");
             }
-            
+
             else{
                 alert("Erro ao fazer a requisição");
             }
@@ -46,3 +46,16 @@ window.onload = function() {
     let txtCep = document.getElementById("txtCep");
     txtCep.addEventListener("blur", buscaCep);
 }
+
+// DIV PARA BLOQUEAR DUPLO CLIQUE NO SUBMIT
+var formID = document.getElementById("formID");
+var send = document.getElementById("send");
+
+var onSendClick = function (event) {
+    if (formID.checkValidity()) {
+        event.target.parentNode.classList.add("disabled");
+        event.target.removeEventListener("click", onSendClick);
+    }
+}
+
+send.addEventListener("click", onSendClick);
