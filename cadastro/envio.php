@@ -13,14 +13,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.hostinger.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'contato@rabiconsignados.com';
+    $mail->Username   = 'naoresponda@rabiconsignados.com';
     $mail->Password   = 'Psl#07092014';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
-    $mail->setFrom('contato@rabiconsignados.com', 'Cadastro');
-    $mail->addAddress('contato@rabiconsignados.com', 'Rabi');
-    $mail->addReplyTo('contato@rabiconsignados.com', 'Rabi');
+    $mail->setFrom('naoresponda@rabiconsignados.com', 'Cadastro');
+    $mail->addAddress('naoresponda@rabiconsignados.com', 'Rabi');
+    $mail->addReplyTo('naoresponda@rabiconsignados.com', 'Rabi');
 
     $mail->CharSet = 'UTF-8';
 
