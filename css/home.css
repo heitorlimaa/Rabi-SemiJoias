@@ -112,7 +112,7 @@ header{
     background-position: 10% center;
 }
 
-#beneficios_mobile{
+#beneficios_desktop{
     display: none;
 }
 
@@ -237,13 +237,16 @@ header{
     border-radius: 8px;
 }
 
-.duvidas{
+.duvidas section{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    text-align: start;
+    margin-bottom: 1.5rem;
 }
 
 .duvidas-child span{
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -356,7 +359,7 @@ header{
         display: none;
     }
 
-    #beneficios_mobile{
+    #beneficios_desktop{
         display: flex;
         flex-direction: column;
     }
@@ -419,34 +422,16 @@ header{
 /* ---------- FIM DO 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
 
 /* ---------- 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
-#title_duvidas{
+    .duvidas{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    
+    }
 
-#title_duvidas hr{
-    height: 3px;
-    width: 40%;
-    background-color: var(--color-secondary);
-    opacity: .3;
-    border-radius: 8px;
-}
-
-.duvidas{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.duvidas-child span{
-    font-weight: 600;
-}
-
-.duvidas-child p{
-    line-height: 25px;
-    font-size: .9rem;
-}
+    .duvidas section{
+    width: 50%;
+    padding: 1rem;
+    justify-content: space-between;
+    }
 }
 /* ---------- FIM DO 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
 /* ---------- FIM DO RESPONSIVO ----------*/
