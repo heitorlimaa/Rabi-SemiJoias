@@ -206,6 +206,14 @@ header{
 }
 /* ---------- FIM DO 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
 
+.card-produtos{
+    text-align: center;
+}
+
+.card-produtos img{
+    width: 17rem;
+}
+
 /* ---------- 6° CONTEÚDO (DEPOIMENTOS) ----------*/
 #depoimentos{
     background-color: var(--color-secondary);
@@ -393,6 +401,10 @@ header{
     width: 50%;
 }
 /* ---------- FIM DO 4° CONTEÚDO (QUEM SOMOS NÓS) ----------*/
+
+.card-produtos img{
+    width: 21rem;
+}
 
 /* ---------- 6° CONTEÚDO (DEPOIMENTOS) ----------*/
 #depoimentos{
