@@ -69,6 +69,9 @@
 
             </div>
 
+            <p>Nome da Pessoa que Indicou:</p>
+            <input type="text" name="nomeIndicacao">
+
             <hr>
 
             <h2>Endereço <span>Residencial</span></h2>
@@ -77,16 +80,16 @@
             <input type="text" id="txtCep" name="cep" required><br>
 
             <p>Endereço:</p>
-            <input type="text" id="txtRua" name="endereco" required><br>
+            <input type="text" id="txtRua" name="endereco" placeholder="Ex: Rua Bárbara Heliodora" required><br>
 
             <p>Número:</p>
-            <input type="text" name="numero" required><br>
+            <input type="text" name="numero" placeholder="Ex: 581" required><br>
 
             <p>Ponto de Referência:</p>
-            <input type="text" name="ponto_referencia"><br>
+            <input type="text" name="ponto_referencia" placeholder="Ex: Ao lado da Cacau Show"><br>
 
             <p>Bairro:</p>
-            <input type="text" id="txtBairro" name="bairro" required><br>
+            <input type="text" id="txtBairro" name="bairro" placeholder="Ex: Centro" required><br>
 
             <p>Cidade:</p>
             <input type="text" id="txtCity" name="cidade" required readonly><br>
@@ -114,7 +117,20 @@
 
     <script src="../js/cadastro.js"></script>
     
-    <script src="./js/pixel.js"></script>
+    <script>
+        !function(f,b,e,v,n,t,s){
+        if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)
+    }
+    
+    (window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '673183271388458');
+    fbq('track', 'PageView');
+    </script>
     
     <noscript>
         <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=673183271388458&ev=PageView&noscript=1"/>

@@ -32,6 +32,7 @@ try {
             <b>Whatsapp:</b> ". $_POST['whatsapp']."<br>
             <b>Restrição:</b> ". $_POST['restricao']."<br>
             <b>Onde nos conheceu:</b> ". $_POST['conheceu']."<br>
+            <b>Nome da Pessoa que Indicou:</b> ". $_POST['nomeIndicacao']."<br>
             <br>
             <br>
             <h5><b>ENDEREÇO RESIDENCIAL:</b></h5>
