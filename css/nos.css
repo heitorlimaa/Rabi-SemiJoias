@@ -4,6 +4,11 @@ header{
     background-position: 30% center;
 }
 
+.cards img{
+    width: 17rem;
+    height: 25rem;
+}
+
 @media screen and (min-width: 800px){
     .flex_child{
         display: flex;
@@ -21,5 +26,6 @@ header{
 
     .cards img{
         width: 13rem;
+        height: 20rem;
     }
 }

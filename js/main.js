@@ -35,7 +35,7 @@ new Swiper("#swiper-1", {
     loop: true,
     keyboard: {
         enabled:true
-    },
+    }
 })
 
 new Swiper("#swiper-2", {

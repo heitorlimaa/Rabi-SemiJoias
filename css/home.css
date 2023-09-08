@@ -116,6 +116,10 @@ header{
     display: none;
 }
 
+.swiper-slide figure img{
+    width: 17rem;
+}
+
 .swiper-custom-pagination {
     display: flex;
     width: 100%;
@@ -363,6 +367,10 @@ header{
         gap: 2rem;
     }
 
+    .cards_beneficios img{
+        width: 17rem;
+    }
+
     #slider-2{
         display: none;
     }
@@ -410,10 +418,8 @@ header{
 #depoimentos{
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
-
 /* ---------- FIM DO 6° CONTEÚDO (DEPOIMENTOS) ----------*/
 
 /* ---------- 7° CONTEÚDO (FAÇA PARTE DO NOSSO TIME) ----------*/
