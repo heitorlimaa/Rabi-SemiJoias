@@ -4,3 +4,13 @@ header{
     background-position: 30% center;
     color: var(--color-primary);
 }
+
+.card-produtos img{
+    width: 17rem;
+}
+
+@media screen and (min-width: 800px){
+    .card-produtos img{
+    width: 21rem;
+    }
+}

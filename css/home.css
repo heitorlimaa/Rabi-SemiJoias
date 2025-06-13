@@ -268,6 +268,10 @@ header{
 }
 /* ---------- FIM DO 8° CONTEÚDO (DÚVIDAS FREQUENTES) ----------*/
 
+.desenvolvido img{
+    width: 15rem;
+}
+
 @media screen and (min-width: 800px) {
 /* --- BOTÃO CTA ---*/
     .button-cta {

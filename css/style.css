@@ -169,6 +169,10 @@ footer a{
 footer p:last-child{
     margin-bottom: 2rem;
 }
+
+.desenvolvido img{
+    width: 15rem;
+}
 /* ---------- FIM DO RODAPÉ ----------*/
 .whatsapp{
     width: 4rem;
